@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+        height: 100vh;
+        background-image: url(../img/vuejs.jpg);
+        background-size: cover;
+        color: aliceblue;
+        position: relative;
+}
+
+.align-center {
+    text-align: center;
+    line-height: 100vh;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.absolute {
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    width: 150px;
+    left: calc(50% - 75px)
+}
